@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,10 +19,14 @@
     "history": "^1.17.0",
     "jquery": "^3.2.1",
     "mongodb": "^2.2.26",
+    "mongoose": "^5.13.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^1.0.3",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
